@@ -9,6 +9,8 @@
 #ifndef LITERAL_COLLECTIONS_SET_HPP
 #define LITERAL_COLLECTIONS_SET_HPP
 
+#include <set>
+
 /* convenient syntax for creating pre-populated (literal) STL std::set collections
  * 
  * // create a set of integers containing the numbers 1-4
