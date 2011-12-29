@@ -14,7 +14,7 @@
 namespace literal
 {
 	template <typename T>
-		inline void populate_vector(std::vector<T>& coll)
+		inline void populate_vector(std::vector<T>&)
 	{}
 	
 	template <typename T, typename Arg_T, typename... RestTypes>
