@@ -23,7 +23,7 @@
 namespace literal
 {
 	template <typename T>
-		inline void populate_set(std::set<T>& coll)
+		inline void populate_set(std::set<T>&)
 	{}
 	
 	template <typename T, typename Arg_T, typename... RestTypes>
